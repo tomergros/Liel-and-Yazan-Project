@@ -1,5 +1,20 @@
 import streamlit as st
 
+# Add custom CSS to make the content right-to-left
+st.markdown(
+    """
+    <style>
+        body {
+            direction: rtl;
+        }
+        h1, h2, h3, h4, h5, h6, p {
+            text-align: center;
+        }
+    </style>
+    """,
+    unsafe_allow_html=True,
+)
+
 # Section 1
 st.markdown('<h1 style="text-align:center;"dir="rtl">זיהוי בריונות ברשתות החברתיות באמצעות בינה מלאכותית</h1>', unsafe_allow_html=True)
 st.markdown('<h3 style="text-align:center;"dir="rtl">יזן מרעי וליאל יעקב</h3>', unsafe_allow_html=True)
