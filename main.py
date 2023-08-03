@@ -2,7 +2,7 @@ import streamlit as st
 
 # Function to add center alignment Markdown tag
 def centered_text(text):
-    return f'<div style="text-align: center;">{text}</div>'
+    return f'<p style="text-align: center;">{text}</p>'
 
 # Section 1
 st.markdown(centered_text('<h1>זיהוי בריונות ברשתות החברתיות באמצעות בינה מלאכותית</h1>'))
