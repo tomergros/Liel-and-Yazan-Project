@@ -26,6 +26,7 @@ st.markdown(
         }
         p{
             text-align: center;
+             font-size: 24px;
         }
     </style>
     """,
