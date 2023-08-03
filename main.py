@@ -21,7 +21,7 @@ background_text = """
 st.write(background_text)
 
 # Section 3
-st.header('טרות')
+st.header('מטרות')
 
 objectives_text = """
 מטרת המחקר שלנו היא לאתר טקסטים פוגעניים ברשתות החברתיות על מנת למנוע מצבים של פגיעה במשתמשים ברשתות החברתיות.
