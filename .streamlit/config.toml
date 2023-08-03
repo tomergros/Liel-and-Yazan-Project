@@ -1,50 +1,28 @@
 [theme]
-primaryColor = "#007bff"
-backgroundColor = "#f8f9fa"
-secondaryBackgroundColor = "#e9ecef"
-textColor = "#333333"
-font = "sans serif"
+base="light"
+primaryColor="#1abc9c"
+backgroundColor="#f9f9f9"
 
-# [theme.base]
-# backgroundColor = "#f8f9fa"
-# secondaryBackgroundColor = "#e9ecef"
+[theme.sectionStyle]
+backgroundColor="#ffffff"
 
-# [theme.section1]
-# backgroundColor = "#f2dede"
-# textColor = "#721c24"
+[theme.h1Style]
+backgroundColor="#e74c3c"
 
-# [theme.section2]
-# backgroundColor = "#d4edda"
-# textColor = "#155724"
+[theme.h2Style]
+backgroundColor="#3498db"
 
-# [theme.section3]
-# backgroundColor = "#cce5ff"
-# textColor = "#004085"
+[theme.h3Style]
+backgroundColor="#9b59b6"
 
-# [theme.section4]
-# backgroundColor = "#fcf8e3"
-# textColor = "#856404"
+[theme.h4Style]
+backgroundColor="#2ecc71"
 
-# [theme.section5]
-# backgroundColor = "#d1ecf1"
-# textColor = "#0c5460"
+[theme.h5Style]
+backgroundColor="#f1c40f"
 
-# [theme.section6]
-# backgroundColor = "#f8d7da"
-# textColor = "#721c24"
+[theme.h6Style]
+backgroundColor="#e67e22"
 
-# [theme.section7]
-# backgroundColor = "#d1ecf1"
-# textColor = "#0c5460"
-
-# [theme.section8]
-# backgroundColor = "#d4edda"
-# textColor = "#155724"
-
-# [theme.section9]
-# backgroundColor = "#d1ecf1"
-# textColor = "#0c5460"
-
-# [theme.section10]
-# backgroundColor = "#f8f9fa"
-# textColor = "#333333"
+[theme.pStyle]
+backgroundColor="#bdc3c7"
