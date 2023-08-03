@@ -1,5 +1,10 @@
 import streamlit as st
-
+[theme]
+primaryColor="#F63366"
+backgroundColor="#FFFFFF"
+secondaryBackgroundColor="#F0F2F6"
+textColor="#262730"
+font="sans serif"
 # Add custom CSS to make the content right-to-left and set the overall style
 st.markdown(
     """
