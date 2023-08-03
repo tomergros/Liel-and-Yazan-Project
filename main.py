@@ -10,6 +10,22 @@ st.markdown(
         h1, h2, h3, h4, h5, h6, p {
             text-align: center;
         }
+        .section {
+            margin: 2rem 0;
+            padding: 1rem;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .section1 { background-color: #eef2f5; }
+        .section2 { background-color: #f9f1e7; }
+        .section3 { background-color: #e7f0f9; }
+        .section4 { background-color: #f1e7f5; }
+        .section5 { background-color: #e7f9f0; }
+        .section6 { background-color: #f0e7f9; }
+        .section7 { background-color: #e7f5f1; }
+        .section8 { background-color: #f9e7f0; }
+        .section9 { background-color: #f5e7f1; }
+        .section10 { background-color: #e7f1e5; }
     </style>
     """,
     unsafe_allow_html=True,
