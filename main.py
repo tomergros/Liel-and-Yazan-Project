@@ -6,69 +6,32 @@ st.markdown(
     <style>
         body {
             direction: rtl;
-            background-color: #f8f9fa;
-            color: #333333;
-            font-family: sans-serif;
-        }
-        h1, h2, h3, h4, h5, h6 {
-            text-align: center;
+            font-family: Arial, sans-serif;
         }
         .section1 {
-            background-color: #f2dede;
-            color: #721c24;
-            padding: 1rem;
+            background-color: #f7f7f7; /* Light gray */
+            padding: 20px;
         }
         .section2 {
-            background-color: #d4edda;
-            color: #155724;
-            padding: 1rem;
+            background-color: #eaeaea; /* Lighter gray */
+            padding: 20px;
         }
         .section3 {
-            background-color: #cce5ff;
-            color: #004085;
-            padding: 1rem;
+            background-color: #f0f0f0; /* Even lighter gray */
+            padding: 20px;
         }
-        .section4 {
-            background-color: #fcf8e3;
-            color: #856404;
-            padding: 1rem;
-        }
-        .section5 {
-            background-color: #d1ecf1;
-            color: #0c5460;
-            padding: 1rem;
-        }
-        .section6 {
-            background-color: #f8d7da;
-            color: #721c24;
-            padding: 1rem;
-        }
-        .section7 {
-            background-color: #d1ecf1;
-            color: #0c5460;
-            padding: 1rem;
-        }
-        .section8 {
-            background-color: #d4edda;
-            color: #155724;
-            padding: 1rem;
-        }
-        .section9 {
-            background-color: #d1ecf1;
-            color: #0c5460;
-            padding: 1rem;
-        }
-        .section10 {
-            background-color: #f8f9fa;
-            color: #333333;
-            padding: 1rem;
+        h1, h2, h3, h4, h5, h6, p {
+            text-align: center;
         }
     </style>
     """,
     unsafe_allow_html=True,
 )
 
+
 # Section 1
+st.markdown('<div class="section1">', unsafe_allow_html=True)
+
 st.markdown('<h1 style="text-align:center;" dir="rtl">זיהוי בריונות ברשתות החברתיות באמצעות בינה מלאכותית</h1>', unsafe_allow_html=True)
 
 st.markdown('<h3 style="text-align:center;" dir="rtl">יזן מרעי וליאל יעקב</h3>', unsafe_allow_html=True)
