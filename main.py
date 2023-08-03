@@ -28,6 +28,9 @@ st.markdown(
             text-align: center;
              font-size: 24px;
         }
+        p::first-line {
+            font-size: 120%;
+        }
     </style>
     """,
     unsafe_allow_html=True,
