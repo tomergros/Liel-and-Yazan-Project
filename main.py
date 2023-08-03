@@ -6,25 +6,62 @@ st.markdown(
     <style>
         body {
             direction: rtl;
-            background-color: #f7f7f7;
-            margin: 0;
-            padding: 0;
-            font-family: Ubuntu;
-        }
-        .section {
-            background-color: #008000;
-            padding: 20px;
-            margin: 20px 0;
-            border-radius: 5px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            background-color: #f8f9fa;
+            color: #333333;
+            font-family: sans-serif;
         }
         h1, h2, h3, h4, h5, h6 {
             text-align: center;
-            margin-bottom: 20px;
         }
-        p {
-            text-align: center;
-            margin-bottom: 10px;
+        .section1 {
+            background-color: #f2dede;
+            color: #721c24;
+            padding: 1rem;
+        }
+        .section2 {
+            background-color: #d4edda;
+            color: #155724;
+            padding: 1rem;
+        }
+        .section3 {
+            background-color: #cce5ff;
+            color: #004085;
+            padding: 1rem;
+        }
+        .section4 {
+            background-color: #fcf8e3;
+            color: #856404;
+            padding: 1rem;
+        }
+        .section5 {
+            background-color: #d1ecf1;
+            color: #0c5460;
+            padding: 1rem;
+        }
+        .section6 {
+            background-color: #f8d7da;
+            color: #721c24;
+            padding: 1rem;
+        }
+        .section7 {
+            background-color: #d1ecf1;
+            color: #0c5460;
+            padding: 1rem;
+        }
+        .section8 {
+            background-color: #d4edda;
+            color: #155724;
+            padding: 1rem;
+        }
+        .section9 {
+            background-color: #d1ecf1;
+            color: #0c5460;
+            padding: 1rem;
+        }
+        .section10 {
+            background-color: #f8f9fa;
+            color: #333333;
+            padding: 1rem;
         }
     </style>
     """,
