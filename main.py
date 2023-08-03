@@ -20,7 +20,7 @@ background_text = """
 st.write(background_text)
 
 # Section 3
-st.markdown('<h2 style="text-align:center;">טרות</h2>', unsafe_allow_html=True)
+st.markdown('<h2 style="text-align:center;">מטרות</h2>', unsafe_allow_html=True)
 
 objectives_text = """
 מטרת המחקר שלנו היא לאתר טקסטים פוגעניים ברשתות החברתיות על מנת למנוע מצבים של פגיעה במשתמשים ברשתות החברתיות.
