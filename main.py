@@ -30,7 +30,7 @@ st.markdown(
         }
         pre{
             text-align: center;
-            padding: 20px;
+            padding: 40px;
         }
         pre code{
             text-align: center;
