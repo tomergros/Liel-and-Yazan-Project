@@ -9,10 +9,10 @@ st.markdown(
             background-color: #f7f7f7;
             margin: 0;
             padding: 0;
-            font-family: Arial, sans-serif;
+            font-family: Ubuntu;
         }
         .section {
-            background-color: #ffffff;
+            background-color: #008000;
             padding: 20px;
             margin: 20px 0;
             border-radius: 5px;
