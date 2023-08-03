@@ -69,11 +69,12 @@ st.markdown(
 )
 
 # Section 1
-st.markdown('<h1 style="text-align:center;"dir="rtl">זיהוי בריונות ברשתות החברתיות באמצעות בינה מלאכותית</h1>', unsafe_allow_html=True)
-st.markdown('<h3 style="text-align:center;"dir="rtl">יזן מרעי וליאל יעקב</h3>', unsafe_allow_html=True)
+st.markdown('<h1 style="text-align:center;" dir="rtl">זיהוי בריונות ברשתות החברתיות באמצעות בינה מלאכותית</h1>', unsafe_allow_html=True)
+
+st.markdown('<h3 style="text-align:center;" dir="rtl">יזן מרעי וליאל יעקב</h3>', unsafe_allow_html=True)
 
 # Section 2
-st.markdown('<h2 style="text-align:center;"dir="rtl">רקע</h2>', unsafe_allow_html=True)
+st.markdown('<h2 style="text-align:center;" dir="rtl">רקע</h2>', unsafe_allow_html=True)
 
 background_text = """
 בשנים האחרונות פלטפורמת הרשתות החברתיות תפסה תאוצה וכיום היא תופסת מקום משמעותי בחיים של כמעט כל אחד מאיתנו. 
@@ -85,10 +86,10 @@ background_text = """
 ועלולה לגרום לנזק לבריאות הנפשית והפיזית של הקורבנות.
 """
 
-st.write(background_text)
+st.markdown(f'<p style="text-align:justify;" dir="rtl">{background_text}</p>', unsafe_allow_html=True)
 
 # Section 3
-st.markdown('<h2 style="text-align:center;"dir="rtl">מטרות</h2>', unsafe_allow_html=True)
+st.markdown('<h2 style="text-align:center;" dir="rtl">מטרות</h2>', unsafe_allow_html=True)
 
 objectives_text = """
 מטרת המחקר שלנו היא לאתר טקסטים פוגעניים ברשתות החברתיות על מנת למנוע מצבים של פגיעה במשתמשים ברשתות החברתיות.
@@ -107,10 +108,10 @@ objectives_text = """
 השייכות שלו לכל אחת מהקטגוריות. המטרה המרכזית היא שהמודל יפעל על השפות עברית וערבית יחדיו.
 """
 
-st.write(objectives_text)
+st.markdown(f'<p style="text-align:justify;" dir="rtl">{objectives_text}</p>', unsafe_allow_html=True)
 
 # Section 4
-st.markdown('<h2 style="text-align:center;"dir="rtl">NLP MODELS</h2>', unsafe_allow_html=True)
+st.markdown('<h2 style="text-align:center;" dir="rtl">NLP MODELS</h2>', unsafe_allow_html=True)
 
 nlp_models_text = """
 תחילה, ערכנו ניסוי לקביעת האלגוריתם המספק את התוצאות הכי טובות בין מספר מודלים שונים.
@@ -127,10 +128,10 @@ nlp_models_text = """
 Naive Bayes                                 BERT                                LSTM 
 """
 
-st.write(nlp_models_text)
+st.markdown(f'<p style="text-align:justify;" dir="rtl">{nlp_models_text}</p>', unsafe_allow_html=True)
 
 # Section 5
-st.markdown('<h2 style="text-align:center;"dir="rtl">Multilingual Bert</h2>', unsafe_allow_html=True)
+st.markdown('<h2 style="text-align:center;" dir="rtl">Multilingual Bert</h2>', unsafe_allow_html=True)
 
 multilingual_bert_text = """
 לאור התוצאות, בחרנו להשתמש לסט הנתונים בעברית וערבית במודל Multilingual Bert.
@@ -144,10 +145,10 @@ multilingual_bert_text = """
 מודל זה, משמש למגוון משימות בתחום עיבוד השפה, בין היתר ניתוח רגש של טקסטים בשפות שונות.
 """
 
-st.write(multilingual_bert_text)
+st.markdown(f'<p style="text-align:justify;" dir="rtl">{multilingual_bert_text}</p>', unsafe_allow_html=True)
 
 # Section 6
-st.markdown('<h2 style="text-align:center;"dir="rtl">דוגמא מתוך סט הנתונים בעברית וערבית בנפרד</h2>', unsafe_allow_html=True)
+st.markdown('<h2 style="text-align:center;" dir="rtl">דוגמא מתוך סט הנתונים בעברית וערבית בנפרד</h2>', unsafe_allow_html=True)
 
 example_data_text = """
 סט הנתונים
@@ -158,14 +159,14 @@ example_data_text = """
 כמו כן, אנו מגוונים את הנתונים הנאספים מהרשת החברתית פייסבוק ומגוונים את סוגי הבריונות, למשל: פוליטיקה, גזענות, 
 דת, מין וכו' על מנת ליצור סט נתונים אותנטי ורחב ככל שנצליח.
 
-בכוונתנו להוסיף מקורות לאיסוף הנתונים כגון: אינסטגרם וטיקטוק. כידוע, ברשתות אלו שימושם של בני הנוער גדול משימושם בפייסבוק. 
-לכן, בכדי שסט הנתונים יהיה עדכני, רלוונטי ותואם לבני הנוער- נאסוף נתונים גם משם.
+בכוונתנו להוסיף מקורות לאיסוף הנתונים כגון: אינסטגרם וטיקטוק. כידוע, ברשתות אלו שימושם של בני הנוער גדול משימושם 
+בפייסבוק. לכן, בכדי שסט הנתונים יהיה עדכני, רלוונטי ותואם לבני הנוער- נאסוף נתונים גם משם.
 """
 
-st.write(example_data_text)
+st.markdown(f'<p style="text-align:justify;" dir="rtl">{example_data_text}</p>', unsafe_allow_html=True)
 
 # Section 7
-st.markdown('<h2 style="text-align:center;"dir="rtl">מדדים להערכות ביצועים</h2>', unsafe_allow_html=True)
+st.markdown('<h2 style="text-align:center;" dir="rtl">מדדים להערכות ביצועים</h2>', unsafe_allow_html=True)
 
 performance_metrics_text = """
 מדדים להערכות ביצועים
@@ -181,31 +182,33 @@ performance_metrics_text = """
 - Accuracy (דיוק)- זהו המדד הפשוט ביותר. הוא מחשב את היחס בין הסיווגים הנכונים לבין סך כל הסיווגים.
 """
 
-st.write(performance_metrics_text)
+st.markdown(f'<p style="text-align:justify;" dir="rtl">{performance_metrics_text}</p>', unsafe_allow_html=True)
+
 
 # Section 8
-st.markdown('<h2 style="text-align:center;"dir="rtl">הערכת ביצועים על סט הנתונים בעברית</h2>', unsafe_allow_html=True)
+st.markdown('<h2 style="text-align:center;" dir="rtl">הערכת ביצועים על סט הנתונים בעברית</h2>', unsafe_allow_html=True)
 
 hebrew_performance_text = """
-[Insert the performance results for the Hebrew data here]
+[הכנס כאן את תוצאות הביצועים על סט הנתונים בעברית]
 """
 
-st.write(hebrew_performance_text)
+st.markdown(f'<p style="text-align:justify;" dir="rtl">{hebrew_performance_text}</p>', unsafe_allow_html=True)
 
 # Section 9
-st.markdown('<h2 style="text-align:center;"dir="rtl">הערכת ביצועים על סט הנתונים בערבית</h2>', unsafe_allow_html=True)
+st.markdown('<h2 style="text-align:center;" dir="rtl">הערכת ביצועים על סט הנתונים בערבית</h2>', unsafe_allow_html=True)
 
 arabic_performance_text = """
-[Insert the performance results for the Arabic data here]
+[הכנס כאן את תוצאות הביצועים על סט הנתונים בערבית]
 """
 
-st.write(arabic_performance_text)
+st.markdown(f'<p style="text-align:justify;" dir="rtl">{arabic_performance_text}</p>', unsafe_allow_html=True)
 
 # Section 10
-st.markdown('<h2 style="text-align:center;"dir="rtl">הערכת ביצועים על סט הנתונים בעברית + ערבית</h2>', unsafe_allow_html=True)
+st.markdown('<h2 style="text-align:center;" dir="rtl">הערכת ביצועים על סט הנתונים בעברית + ערבית</h2>', unsafe_allow_html=True)
 
 hebrew_arabic_performance_text = """
-[Insert the performance results for the Hebrew + Arabic data here]
+[הכנס כאן את תוצאות הביצועים על סט הנתונים המשולב של עברית וערבית]
 """
 
-st.write(hebrew_arabic_performance_text)
+st.markdown(f'<p style="text-align:justify;" dir="rtl">{hebrew_arabic_performance_text}</p>', unsafe_allow_html=True)
+
