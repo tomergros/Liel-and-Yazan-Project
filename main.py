@@ -9,7 +9,7 @@ st.markdown(
             font-family: Arial, sans-serif;
         }
         .section1 {
-            background-color: ##e4eaae; 
+            background-color: #e4eaae; 
             padding: 20px;
         }
         .section2 {
