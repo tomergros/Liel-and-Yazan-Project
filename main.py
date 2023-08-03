@@ -28,6 +28,9 @@ st.markdown(
             text-align: center;
              font-size: 24px;
         }
+        pre{
+            text-align: center;
+        }
         pre code{
             text-align: center;
             font-size: 20px; /* Change this value to adjust the code block text size */
