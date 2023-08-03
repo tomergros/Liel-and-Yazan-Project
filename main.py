@@ -1,16 +1,15 @@
 import streamlit as st
 
-# Center alignment HTML tag
-center_alignment = '<div style="text-align: center;">{}</div>'
+# Function to add center alignment Markdown tag
+def centered_text(text):
+    return f'<div style="text-align: center;">{text}</div>'
 
 # Section 1
-st.markdown(center_alignment.format('<h1>זיהוי בריונות ברשתות החברתיות באמצעות בינה מלאכותית</h1>'))
-
+st.markdown(centered_text('<h1>זיהוי בריונות ברשתות החברתיות באמצעות בינה מלאכותית</h1>'))
 st.subheader('יזן מרעי וליאל יעקב')
 
 # Section 2
-st.markdown(center_alignment.format('<h2>רקע</h2>'))
-
+st.markdown(centered_text('<h2>רקע</h2>'))
 background_text = """
 בשנים האחרונות פלטפורמת הרשתות החברתיות תפסה תאוצה וכיום היא תופסת מקום משמעותי בחיים של כמעט כל אחד מאיתנו. 
 הרשתות החברתיות מספקות דרך קלה ונוחה ליצירת קשר ושיתוף עם הסביבה שלנו וגם עם אנשים זרים מכל רחבי העולם. למעשה, 
@@ -20,12 +19,10 @@ background_text = """
 פרסום פוסט, תמונה או סירטון בעלי אופי פוגע או מאיים. תופעה זו משפיעה על כל המשתמשים ברשתות. ועלולה לגרום לנזק לבריאות הנפשית 
 והפיזית של הקורבנות.
 """
-
-st.markdown(center_alignment.format(background_text))
+st.markdown(centered_text(background_text))
 
 # Section 3
-st.markdown(center_alignment.format('<h2>טרות</h2>'))
-
+st.markdown(centered_text('<h2>טרות</h2>'))
 objectives_text = """
 מטרת המחקר שלנו היא לאתר טקסטים פוגעניים ברשתות החברתיות על מנת למנוע מצבים של פגיעה במשתמשים ברשתות החברתיות.
 נעשה זאת באמצעות בינה מלאכותית.
@@ -42,14 +39,12 @@ objectives_text = """
 בכוונתנו להצליח, לאחר אימון והשגת הערכות ביצוע טובות, לבנות פונקציה אשר תקבל משפט חדש ותחזיר את ההסתברות של השייכות 
 שלו לכל אחת מהקטגוריות. המטרה המרכזית היא שהמודל יפעל על השפות עברית וערבית יחדיו.
 """
-
-st.markdown(center_alignment.format(objectives_text))
+st.markdown(centered_text(objectives_text))
 
 # Section 4
-st.markdown(center_alignment.format('<h2>NLP MODELS</h2>'))
-
-nlp_models_text = """
-תחילה, ערכנו ניסוי לקביעת האלגוריתם המספק את התוצאות הכי טובות בין מספר מודלים שונים.  
+st.markdown(centered_text('<h2>NLP MODELS</h2>'))
+models_text = """
+תחילה, ערכנו ניסוי לקביעת האלגוריתם המספק את התוצאות הכי טובות בין מספר מודלים שונים.
 
 ביצענו השוואה בין שלושה אלגוריתמי סיווג: Naive bayes, LSTM ו- BERT.
 
@@ -59,12 +54,10 @@ nlp_models_text = """
 
 נוכחנו לגלות שמודל BERT מספק את התוצאות הטובות ביותר.
 """
-
-st.markdown(center_alignment.format(nlp_models_text))
+st.markdown(centered_text(models_text))
 
 # Section 5
-st.markdown(center_alignment.format('<h2>Multilingual Bert</h2>'))
-
+st.markdown(centered_text('<h2>Multilingual Bert</h2>'))
 multilingual_bert_text = """
 לאור התוצאות, בחרנו להשתמש לסט הנתונים בעברית וערבית במודל Multilingual Bert.
 
@@ -76,21 +69,26 @@ Masked word אשר עוזר ללמידת קשרים בין מילים ו- Transf
 
 מודל זה, משמש למגוון משימות בתחום עיבוד השפה, בין היתר ניתוח רגש של טקסטים בשפות שונות.
 """
-
-st.markdown(center_alignment.format(multilingual_bert_text))
+st.markdown(centered_text(multilingual_bert_text))
 
 # Section 6
-st.markdown(center_alignment.format('<h2>דוגמא מתוך סט הנתונים בעברית וערבית בנפרד</h2>'))
-
+st.markdown(centered_text('<h2>Example from the dataset in Hebrew and Arabic</h2>'))
 example_data_text = """
-...
-"""
+סט הנתונים
+את הנתונים אנו אוספים מהרשת החברתית פייסבוק.
 
-st.markdown(center_alignment.format(example_data_text))
+אנו ממשיכים לאסוף נתונים בעבודה עצמית ומשתדלים לשמור על איזון בין שתי הקטגוריות של תגובות פוגעניות ושאינן פוגעניות.
+
+כמו כן, אנו מגוונים את הנתונים הנאספים מהרשת החברתית פייסבוק ומגוונים את סוגי הבריונות, למשל: פוליטיקה, גזענות, דת, מין וכו' 
+על מנת ליצור סט נתונים אותנטי ורחב ככל שנצליח.
+
+בכוונתנו להוסיף מקורות לאיסוף הנתונים כגון: אינסטגרם וטיקטוק. כידוע, ברשתות אלו שימושם של בני הנוער גדול משימושם 
+בפייסבוק. לכן, בכדי שסט הנתונים יהיה עדכני, רלוונטי ותואם לבני הנוער- נאסוף נתונים גם משם.
+"""
+st.markdown(centered_text(example_data_text))
 
 # Section 7
-st.markdown(center_alignment.format('<h2>מדדים להערכות ביצועים</h2>'))
-
+st.markdown(centered_text('<h2>Performance Metrics</h2>'))
 performance_metrics_text = """
 את הערכות הביצועים שהתקבלו נשווה באמצעות שני מדדים: F1 score- זהו מדד לניתוח סטטיסטי של סיווג בינארי. 
 הוא מחושב באופן הבא:
@@ -102,33 +100,25 @@ performance_metrics_text = """
 
 - Accuracy (דיוק)- זהו המדד הפשוט ביותר. הוא מחשב את היחס בין הסיווגים הנכונים לבין סך כל הסיווגים.
 """
-
-
-st.markdown(center_alignment.format(performance_metrics_text))
+st.markdown(centered_text(performance_metrics_text))
 
 # Section 8
-st.markdown(center_alignment.format('<h2>הערכת ביצועים על סט הנתונים בעברית</h2>'))
-
+st.markdown(centered_text('<h2>Performance Evaluation on the Hebrew Dataset</h2>'))
 hebrew_performance_text = """
 ...
 """
-
-st.markdown(center_alignment.format(hebrew_performance_text))
+st.markdown(centered_text(hebrew_performance_text))
 
 # Section 9
-st.markdown(center_alignment.format('<h2>הערכת ביצועים על סט הנתונים בערבית</h2>'))
-
+st.markdown(centered_text('<h2>Performance Evaluation on the Arabic Dataset</h2>'))
 arabic_performance_text = """
 ...
 """
-
-st.markdown(center_alignment.format(arabic_performance_text))
+st.markdown(centered_text(arabic_performance_text))
 
 # Section 10
-st.markdown(center_alignment.format('<h2>הערכת ביצועים על סט הנתונים בעברית + ערבית</h2>'))
-
+st.markdown(centered_text('<h2>Performance Evaluation on the Hebrew + Arabic Dataset</h2>'))
 hebrew_arabic_performance_text = """
 ...
 """
-
-st.markdown(center_alignment.format(hebrew_arabic_performance_text))
+st.markdown(centered_text(hebrew_arabic_performance_text))
