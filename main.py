@@ -33,8 +33,8 @@ st.markdown(
 
 # Section 1
 st.markdown('<div class="section section1">', unsafe_allow_html=True)
-st.markdown('<div class="section section1";h1 style="text-align:center;"dir="rtl">זיהוי בריונות ברשתות החברתיות באמצעות בינה מלאכותית</h1>', unsafe_allow_html=True)
-st.markdown('<div class="section section1";h3 style="text-align:center;"dir="rtl">יזן מרעי וליאל יעקב</h3>', unsafe_allow_html=True)
+st.markdown('<h1 style="text-align:center;"dir="rtl">זיהוי בריונות ברשתות החברתיות באמצעות בינה מלאכותית</h1>', unsafe_allow_html=True)
+st.markdown('<h3 style="text-align:center;"dir="rtl">יזן מרעי וליאל יעקב</h3>', unsafe_allow_html=True)
 st.markdown('</div>', unsafe_allow_html=True)
 
 # Section 2
