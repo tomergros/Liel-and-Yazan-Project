@@ -5,9 +5,9 @@ secondaryBackgroundColor = "#e9ecef"
 textColor = "#333333"
 font = "sans serif"
 
-[theme.base]
-backgroundColor = "#f8f9fa"
-secondaryBackgroundColor = "#e9ecef"
+# [theme.base]
+# backgroundColor = "#f8f9fa"
+# secondaryBackgroundColor = "#e9ecef"
 
 # [theme.section1]
 # backgroundColor = "#f2dede"
