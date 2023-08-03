@@ -4,3 +4,47 @@ backgroundColor="#002b36"
 secondaryBackgroundColor="#586e75"
 textColor="#fafafa"
 font="sans serif"
+
+[theme.base]
+backgroundColor = "#f8f9fa"
+secondaryBackgroundColor = "#e9ecef"
+
+[theme.section1]
+backgroundColor = "#f2dede"
+textColor = "#721c24"
+
+[theme.section2]
+backgroundColor = "#d4edda"
+textColor = "#155724"
+
+[theme.section3]
+backgroundColor = "#cce5ff"
+textColor = "#004085"
+
+[theme.section4]
+backgroundColor = "#fcf8e3"
+textColor = "#856404"
+
+[theme.section5]
+backgroundColor = "#d1ecf1"
+textColor = "#0c5460"
+
+[theme.section6]
+backgroundColor = "#f8d7da"
+textColor = "#721c24"
+
+[theme.section7]
+backgroundColor = "#d1ecf1"
+textColor = "#0c5460"
+
+[theme.section8]
+backgroundColor = "#d4edda"
+textColor = "#155724"
+
+[theme.section9]
+backgroundColor = "#d1ecf1"
+textColor = "#0c5460"
+
+[theme.section10]
+backgroundColor = "#f8f9fa"
+textColor = "#333333"
