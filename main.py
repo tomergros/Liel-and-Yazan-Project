@@ -54,7 +54,7 @@ background_text = """
 ועלולה לגרום לנזק לבריאות הנפשית והפיזית של הקורבנות.
 """
 
-st.markdown(f'<p style="text-align:justify;" dir="rtl">{background_text}</p>', unsafe_allow_html=True)
+st.markdown(f'<p style="text-align:center;" dir="rtl">{background_text}</p>', unsafe_allow_html=True)
 
 # Section 3
 st.markdown('<h2 style="text-align:center;" dir="rtl">מטרות</h2>', unsafe_allow_html=True)
@@ -76,7 +76,7 @@ objectives_text = """
 השייכות שלו לכל אחת מהקטגוריות. המטרה המרכזית היא שהמודל יפעל על השפות עברית וערבית יחדיו.
 """
 
-st.markdown(f'<p style="text-align:justify;" dir="rtl">{objectives_text}</p>', unsafe_allow_html=True)
+st.markdown(f'<p style="text-align:center;" dir="rtl">{objectives_text}</p>', unsafe_allow_html=True)
 
 # Section 4
 st.markdown('<h2 style="text-align:center;" dir="rtl">NLP MODELS</h2>', unsafe_allow_html=True)
@@ -113,7 +113,7 @@ multilingual_bert_text = """
 מודל זה, משמש למגוון משימות בתחום עיבוד השפה, בין היתר ניתוח רגש של טקסטים בשפות שונות.
 """
 
-st.markdown(f'<p style="text-align:justify;" dir="rtl">{multilingual_bert_text}</p>', unsafe_allow_html=True)
+st.markdown(f'<p style="text-align:center;" dir="rtl">{multilingual_bert_text}</p>', unsafe_allow_html=True)
 
 # Section 6
 st.markdown('<h2 style="text-align:center;" dir="rtl">דוגמא מתוך סט הנתונים בעברית וערבית בנפרד</h2>', unsafe_allow_html=True)
@@ -131,7 +131,7 @@ example_data_text = """
 בפייסבוק. לכן, בכדי שסט הנתונים יהיה עדכני, רלוונטי ותואם לבני הנוער- נאסוף נתונים גם משם.
 """
 
-st.markdown(f'<p style="text-align:justify;" dir="rtl">{example_data_text}</p>', unsafe_allow_html=True)
+st.markdown(f'<p style="text-align:center;" dir="rtl">{example_data_text}</p>', unsafe_allow_html=True)
 
 # Section 7
 st.markdown('<h2 style="text-align:center;" dir="rtl">מדדים להערכות ביצועים</h2>', unsafe_allow_html=True)
@@ -150,7 +150,7 @@ performance_metrics_text = """
     - Accuracy (דיוק)- זהו המדד הפשוט ביותר. הוא מחשב את היחס בין הסיווגים הנכונים לבין סך כל הסיווגים.
 """
 
-st.markdown(f'<p style="text-align:justify;" dir="rtl">{performance_metrics_text}</p>', unsafe_allow_html=True)
+st.markdown(f'<p style="text-align:center;" dir="rtl">{performance_metrics_text}</p>', unsafe_allow_html=True)
 
 
 # Section 8
@@ -160,7 +160,7 @@ hebrew_performance_text = """
 [הכנס כאן את תוצאות הביצועים על סט הנתונים בעברית]
 """
 
-st.markdown(f'<p style="text-align:justify;" dir="rtl">{hebrew_performance_text}</p>', unsafe_allow_html=True)
+st.markdown(f'<p style="text-align:center;" dir="rtl">{hebrew_performance_text}</p>', unsafe_allow_html=True)
 
 # Section 9
 st.markdown('<h2 style="text-align:center;" dir="rtl">הערכת ביצועים על סט הנתונים בערבית</h2>', unsafe_allow_html=True)
@@ -169,7 +169,7 @@ arabic_performance_text = """
 [הכנס כאן את תוצאות הביצועים על סט הנתונים בערבית]
 """
 
-st.markdown(f'<p style="text-align:justify;" dir="rtl">{arabic_performance_text}</p>', unsafe_allow_html=True)
+st.markdown(f'<p style="text-align:center;" dir="rtl">{arabic_performance_text}</p>', unsafe_allow_html=True)
 
 # Section 10
 st.markdown('<h2 style="text-align:center;" dir="rtl">הערכת ביצועים על סט הנתונים בעברית + ערבית</h2>', unsafe_allow_html=True)
@@ -178,5 +178,5 @@ hebrew_arabic_performance_text = """
 [הכנס כאן את תוצאות הביצועים על סט הנתונים המשולב של עברית וערבית]
 """
 
-st.markdown(f'<p style="text-align:justify;" dir="rtl">{hebrew_arabic_performance_text}</p>', unsafe_allow_html=True)
+st.markdown(f'<p style="text-align:center;" dir="rtl">{hebrew_arabic_performance_text}</p>', unsafe_allow_html=True)
 
