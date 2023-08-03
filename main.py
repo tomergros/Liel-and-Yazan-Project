@@ -1,11 +1,11 @@
 import streamlit as st
 
 # Section 1
-st.markdown('<h1 style="text-align:center;">זיהוי בריונות ברשתות החברתיות באמצעות בינה מלאכותית</h1>', unsafe_allow_html=True)
-st.markdown('<h3 style="text-align:center;">יזן מרעי וליאל יעקב</h3>', unsafe_allow_html=True)
+st.markdown('<h1 style="text-align:center;"dir="rtl">זיהוי בריונות ברשתות החברתיות באמצעות בינה מלאכותית</h1>', unsafe_allow_html=True)
+st.markdown('<h3 style="text-align:center;"dir="rtl">יזן מרעי וליאל יעקב</h3>', unsafe_allow_html=True)
 
 # Section 2
-st.markdown('<h2 style="text-align:center;">רקע</h2>', unsafe_allow_html=True)
+st.markdown('<h2 style="text-align:center;"dir="rtl">רקע</h2>', unsafe_allow_html=True)
 
 background_text = """
 בשנים האחרונות פלטפורמת הרשתות החברתיות תפסה תאוצה וכיום היא תופסת מקום משמעותי בחיים של כמעט כל אחד מאיתנו. 
@@ -20,7 +20,7 @@ background_text = """
 st.write(background_text)
 
 # Section 3
-st.markdown('<h2 style="text-align:center;">מטרות</h2>', unsafe_allow_html=True)
+st.markdown('<h2 style="text-align:center;"dir="rtl">מטרות</h2>', unsafe_allow_html=True)
 
 objectives_text = """
 מטרת המחקר שלנו היא לאתר טקסטים פוגעניים ברשתות החברתיות על מנת למנוע מצבים של פגיעה במשתמשים ברשתות החברתיות.
@@ -42,7 +42,7 @@ objectives_text = """
 st.write(objectives_text)
 
 # Section 4
-st.markdown('<h2 style="text-align:center;">NLP MODELS</h2>', unsafe_allow_html=True)
+st.markdown('<h2 style="text-align:center;"dir="rtl">NLP MODELS</h2>', unsafe_allow_html=True)
 
 nlp_models_text = """
 תחילה, ערכנו ניסוי לקביעת האלגוריתם המספק את התוצאות הכי טובות בין מספר מודלים שונים.
@@ -62,7 +62,7 @@ Naive Bayes                                 BERT                                
 st.write(nlp_models_text)
 
 # Section 5
-st.markdown('<h2 style="text-align:center;">Multilingual Bert</h2>', unsafe_allow_html=True)
+st.markdown('<h2 style="text-align:center;"dir="rtl">Multilingual Bert</h2>', unsafe_allow_html=True)
 
 multilingual_bert_text = """
 לאור התוצאות, בחרנו להשתמש לסט הנתונים בעברית וערבית במודל Multilingual Bert.
@@ -79,7 +79,7 @@ multilingual_bert_text = """
 st.write(multilingual_bert_text)
 
 # Section 6
-st.markdown('<h2 style="text-align:center;">Example from Hebrew and Arabic Data</h2>', unsafe_allow_html=True)
+st.markdown('<h2 style="text-align:center;"dir="rtl">Example from Hebrew and Arabic Data</h2>', unsafe_allow_html=True)
 
 example_data_text = """
 סט הנתונים
@@ -97,7 +97,7 @@ example_data_text = """
 st.write(example_data_text)
 
 # Section 7
-st.markdown('<h2 style="text-align:center;">Performance Metrics</h2>', unsafe_allow_html=True)
+st.markdown('<h2 style="text-align:center;"dir="rtl">Performance Metrics</h2>', unsafe_allow_html=True)
 
 performance_metrics_text = """
 מדדים להערכות ביצועים
@@ -116,7 +116,7 @@ performance_metrics_text = """
 st.write(performance_metrics_text)
 
 # Section 8
-st.markdown('<h2 style="text-align:center;">Performance on Hebrew Data</h2>', unsafe_allow_html=True)
+st.markdown('<h2 style="text-align:center;"dir="rtl">Performance on Hebrew Data</h2>', unsafe_allow_html=True)
 
 hebrew_performance_text = """
 [Insert the performance results for the Hebrew data here]
@@ -125,7 +125,7 @@ hebrew_performance_text = """
 st.write(hebrew_performance_text)
 
 # Section 9
-st.markdown('<h2 style="text-align:center;">Performance on Arabic Data</h2>', unsafe_allow_html=True)
+st.markdown('<h2 style="text-align:center;"dir="rtl">Performance on Arabic Data</h2>', unsafe_allow_html=True)
 
 arabic_performance_text = """
 [Insert the performance results for the Arabic data here]
@@ -134,7 +134,7 @@ arabic_performance_text = """
 st.write(arabic_performance_text)
 
 # Section 10
-st.markdown('<h2 style="text-align:center;">Performance on Hebrew + Arabic Data</h2>', unsafe_allow_html=True)
+st.markdown('<h2 style="text-align:center;"dir="rtl">Performance on Hebrew + Arabic Data</h2>', unsafe_allow_html=True)
 
 hebrew_arabic_performance_text = """
 [Insert the performance results for the Hebrew + Arabic data here]
