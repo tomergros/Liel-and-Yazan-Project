@@ -29,7 +29,7 @@ st.markdown(
              font-size: 24px;
         }
         pre {
-            font-size: 32px; /* Change this value to adjust the code block text size */
+            font-size: 20px; /* Change this value to adjust the code block text size */
         }
 
     </style>
