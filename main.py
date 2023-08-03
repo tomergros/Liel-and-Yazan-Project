@@ -28,9 +28,10 @@ st.markdown(
             text-align: center;
              font-size: 24px;
         }
-        p::first-line {
-            font-size: 100%;
+        pre {
+            font-size: 24px; /* Change this value to adjust the code block text size */
         }
+
     </style>
     """,
     unsafe_allow_html=True,
