@@ -94,7 +94,7 @@ multilingual_bert_text = """
 st.write(multilingual_bert_text)
 
 # Section 6
-st.markdown('<h2 style="text-align:center;"dir="rtl">Example from Hebrew and Arabic Data</h2>', unsafe_allow_html=True)
+st.markdown('<h2 style="text-align:center;"dir="rtl">דוגמא מתוך סט הנתונים בעברית וערבית בנפרד</h2>', unsafe_allow_html=True)
 
 example_data_text = """
 סט הנתונים
@@ -112,7 +112,7 @@ example_data_text = """
 st.write(example_data_text)
 
 # Section 7
-st.markdown('<h2 style="text-align:center;"dir="rtl">Performance Metrics</h2>', unsafe_allow_html=True)
+st.markdown('<h2 style="text-align:center;"dir="rtl">מדדים להערכות ביצועים</h2>', unsafe_allow_html=True)
 
 performance_metrics_text = """
 מדדים להערכות ביצועים
@@ -131,7 +131,7 @@ performance_metrics_text = """
 st.write(performance_metrics_text)
 
 # Section 8
-st.markdown('<h2 style="text-align:center;"dir="rtl">Performance on Hebrew Data</h2>', unsafe_allow_html=True)
+st.markdown('<h2 style="text-align:center;"dir="rtl">הערכת ביצועים על סט הנתונים בעברית</h2>', unsafe_allow_html=True)
 
 hebrew_performance_text = """
 [Insert the performance results for the Hebrew data here]
@@ -140,7 +140,7 @@ hebrew_performance_text = """
 st.write(hebrew_performance_text)
 
 # Section 9
-st.markdown('<h2 style="text-align:center;"dir="rtl">Performance on Arabic Data</h2>', unsafe_allow_html=True)
+st.markdown('<h2 style="text-align:center;"dir="rtl">הערכת ביצועים על סט הנתונים בערבית</h2>', unsafe_allow_html=True)
 
 arabic_performance_text = """
 [Insert the performance results for the Arabic data here]
@@ -149,7 +149,7 @@ arabic_performance_text = """
 st.write(arabic_performance_text)
 
 # Section 10
-st.markdown('<h2 style="text-align:center;"dir="rtl">Performance on Hebrew + Arabic Data</h2>', unsafe_allow_html=True)
+st.markdown('<h2 style="text-align:center;"dir="rtl">הערכת ביצועים על סט הנתונים בעברית + ערבית</h2>', unsafe_allow_html=True)
 
 hebrew_arabic_performance_text = """
 [Insert the performance results for the Hebrew + Arabic data here]
