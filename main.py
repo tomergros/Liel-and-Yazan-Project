@@ -29,7 +29,7 @@ st.markdown(
              font-size: 24px;
         }
         p::first-line {
-            font-size: 120%;
+            font-size: 220%;
         }
     </style>
     """,
