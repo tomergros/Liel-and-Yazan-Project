@@ -32,10 +32,13 @@ st.markdown(
 )
 
 # Section 1
+st.markdown('<div class="section section1">', unsafe_allow_html=True)
 st.markdown('<h1 style="text-align:center;"dir="rtl">זיהוי בריונות ברשתות החברתיות באמצעות בינה מלאכותית</h1>', unsafe_allow_html=True)
 st.markdown('<h3 style="text-align:center;"dir="rtl">יזן מרעי וליאל יעקב</h3>', unsafe_allow_html=True)
+st.markdown('</div>', unsafe_allow_html=True)
 
 # Section 2
+st.markdown('<div class="section section2">', unsafe_allow_html=True)
 st.markdown('<h2 style="text-align:center;"dir="rtl">רקע</h2>', unsafe_allow_html=True)
 
 background_text = """
@@ -49,8 +52,10 @@ background_text = """
 """
 
 st.write(background_text)
+st.markdown('</div>', unsafe_allow_html=True)
 
 # Section 3
+st.markdown('<div class="section section3">', unsafe_allow_html=True)
 st.markdown('<h2 style="text-align:center;"dir="rtl">מטרות</h2>', unsafe_allow_html=True)
 
 objectives_text = """
@@ -71,8 +76,10 @@ objectives_text = """
 """
 
 st.write(objectives_text)
+st.markdown('</div>', unsafe_allow_html=True)
 
 # Section 4
+st.markdown('<div class="section section4">', unsafe_allow_html=True)
 st.markdown('<h2 style="text-align:center;"dir="rtl">NLP MODELS</h2>', unsafe_allow_html=True)
 
 nlp_models_text = """
@@ -91,8 +98,10 @@ Naive Bayes                                 BERT                                
 """
 
 st.write(nlp_models_text)
+st.markdown('</div>', unsafe_allow_html=True)
 
 # Section 5
+st.markdown('<div class="section section5">', unsafe_allow_html=True)
 st.markdown('<h2 style="text-align:center;"dir="rtl">Multilingual Bert</h2>', unsafe_allow_html=True)
 
 multilingual_bert_text = """
@@ -108,8 +117,10 @@ multilingual_bert_text = """
 """
 
 st.write(multilingual_bert_text)
+st.markdown('</div>', unsafe_allow_html=True)
 
 # Section 6
+st.markdown('<div class="section section6">', unsafe_allow_html=True)
 st.markdown('<h2 style="text-align:center;"dir="rtl">דוגמא מתוך סט הנתונים בעברית וערבית בנפרד</h2>', unsafe_allow_html=True)
 
 example_data_text = """
@@ -126,8 +137,10 @@ example_data_text = """
 """
 
 st.write(example_data_text)
+st.markdown('</div>', unsafe_allow_html=True)
 
 # Section 7
+st.markdown('<div class="section section7">', unsafe_allow_html=True)
 st.markdown('<h2 style="text-align:center;"dir="rtl">מדדים להערכות ביצועים</h2>', unsafe_allow_html=True)
 
 performance_metrics_text = """
@@ -145,8 +158,10 @@ performance_metrics_text = """
 """
 
 st.write(performance_metrics_text)
+st.markdown('</div>', unsafe_allow_html=True)
 
 # Section 8
+st.markdown('<div class="section section8">', unsafe_allow_html=True)
 st.markdown('<h2 style="text-align:center;"dir="rtl">הערכת ביצועים על סט הנתונים בעברית</h2>', unsafe_allow_html=True)
 
 hebrew_performance_text = """
@@ -154,8 +169,10 @@ hebrew_performance_text = """
 """
 
 st.write(hebrew_performance_text)
+st.markdown('</div>', unsafe_allow_html=True)
 
 # Section 9
+st.markdown('<div class="section section9">', unsafe_allow_html=True)
 st.markdown('<h2 style="text-align:center;"dir="rtl">הערכת ביצועים על סט הנתונים בערבית</h2>', unsafe_allow_html=True)
 
 arabic_performance_text = """
@@ -163,8 +180,10 @@ arabic_performance_text = """
 """
 
 st.write(arabic_performance_text)
+st.markdown('</div>', unsafe_allow_html=True)
 
 # Section 10
+st.markdown('<div class="section section10">', unsafe_allow_html=True)
 st.markdown('<h2 style="text-align:center;"dir="rtl">הערכת ביצועים על סט הנתונים בעברית + ערבית</h2>', unsafe_allow_html=True)
 
 hebrew_arabic_performance_text = """
@@ -172,3 +191,4 @@ hebrew_arabic_performance_text = """
 """
 
 st.write(hebrew_arabic_performance_text)
+st.markdown('</div>', unsafe_allow_html=True)
