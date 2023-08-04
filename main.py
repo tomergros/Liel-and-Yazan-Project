@@ -168,8 +168,9 @@ st.image(image_path, use_column_width=True)
 image_path = "pics/800_647df7e6540eb_filter_647df864725cc.jpg"
 st.image(image_path, use_column_width=True)
 
-example_data_text = """
-סט הנתונים
+st.markdown('<h2 style="text-align:center;" dir="rtl">סט הנתונים</h2>', unsafe_allow_html=True)
+
+example_data_text = """ 
 את הנתונים אנו אוספים מהרשת החברתית פייסבוק.
 
 אנו ממשיכים לאסוף נתונים בעבודה עצמית ומשתדלים לשמור על איזון בין שתי הקטגוריות של תגובות פוגעניות ושאינן פוגעניות.
@@ -183,11 +184,13 @@ example_data_text = """
 
 st.markdown(f'<p style="text-align:center;" dir="rtl">{example_data_text}</p>', unsafe_allow_html=True)
 
+image_path = "pics/סט הנתונים.jpg"
+st.image(image_path, use_column_width=True)
+
 # Section 7
 st.markdown('<h2 style="text-align:center;" dir="rtl">מדדים להערכות ביצועים</h2>', unsafe_allow_html=True)
 
 performance_metrics_text = """
-מדדים להערכות ביצועים
 את הערכות הביצועים שהתקבלו נשווה באמצעות שני מדדים: F1 score- זהו מדד לניתוח סטטיסטי של סיווג בינארי. הוא 
 מחושב באופן הבא:
 
@@ -202,33 +205,53 @@ performance_metrics_text = """
 
 st.markdown(f'<p style="text-align:center;" dir="rtl">{performance_metrics_text}</p>', unsafe_allow_html=True)
 
+image_path = "pics/מדדים להערכות ביצועים.jpg"
+st.image(image_path, use_column_width=True)
 
 # Section 8
 st.markdown('<h2 style="text-align:center;" dir="rtl">הערכת ביצועים על סט הנתונים בעברית</h2>', unsafe_allow_html=True)
 
-hebrew_performance_text = """
-[הכנס כאן את תוצאות הביצועים על סט הנתונים בעברית]
-"""
+image_path = "pics/הערכת ביצועים על סט הנתונים בעברית.jpg"
+st.image(image_path, use_column_width=True)
 
-st.markdown(f'<p style="text-align:center;" dir="rtl">{hebrew_performance_text}</p>', unsafe_allow_html=True)
+image_path = "pics/הערכת ביצועים על סט הנתונים בעברית2.jpg"
+st.image(image_path, use_column_width=True)
+
+# hebrew_performance_text = """
+# [הכנס כאן את תוצאות הביצועים על סט הנתונים בעברית]
+# """
+
+# st.markdown(f'<p style="text-align:center;" dir="rtl">{hebrew_performance_text}</p>', unsafe_allow_html=True)
 
 # Section 9
 st.markdown('<h2 style="text-align:center;" dir="rtl">הערכת ביצועים על סט הנתונים בערבית</h2>', unsafe_allow_html=True)
 
-arabic_performance_text = """
-[הכנס כאן את תוצאות הביצועים על סט הנתונים בערבית]
-"""
+image_path = "pics/הערכת ביצועים על סט הנתונים בערבית.jpg"
+st.image(image_path, use_column_width=True)
 
-st.markdown(f'<p style="text-align:center;" dir="rtl">{arabic_performance_text}</p>', unsafe_allow_html=True)
+image_path = "pics/הערכת ביצועים על סט הנתונים בערבית2.jpg"
+st.image(image_path, use_column_width=True)
+
+# arabic_performance_text = """
+# [הכנס כאן את תוצאות הביצועים על סט הנתונים בערבית]
+# """
+
+# st.markdown(f'<p style="text-align:center;" dir="rtl">{arabic_performance_text}</p>', unsafe_allow_html=True)
 
 # Section 10
 st.markdown('<h2 style="text-align:center;" dir="rtl">הערכת ביצועים על סט הנתונים בעברית + ערבית</h2>', unsafe_allow_html=True)
 
-hebrew_arabic_performance_text = """
-[הכנס כאן את תוצאות הביצועים על סט הנתונים המשולב של עברית וערבית]
-"""
+image_path = "pics/הערכת ביצועים על סט הנתונים בעברית וערבית.jpg"
+st.image(image_path, use_column_width=True)
 
-st.markdown(f'<p style="text-align:center;" dir="rtl">{hebrew_arabic_performance_text}</p>', unsafe_allow_html=True)
+image_path = "pics/הערכת ביצועים על סט הנתונים בעברית וערבית2.jpg"
+st.image(image_path, use_column_width=True)
+
+# hebrew_arabic_performance_text = """
+# [הכנס כאן את תוצאות הביצועים על סט הנתונים המשולב של עברית וערבית]
+# """
+
+# st.markdown(f'<p style="text-align:center;" dir="rtl">{hebrew_arabic_performance_text}</p>', unsafe_allow_html=True)
 
 st.markdown('<h2 style="text-align:center;" dir="rtl">מחברת Kaggle</h2>', unsafe_allow_html=True)
 iframe_url = "https://www.kaggle.com/embed/liely1/multilingual-bert-hebrew-arabic"
