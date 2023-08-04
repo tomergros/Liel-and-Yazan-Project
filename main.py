@@ -70,6 +70,10 @@ background_text = """
 
 st.markdown(f'<p style="text-align:center;" dir="rtl">{background_text}</p>', unsafe_allow_html=True)
 
+# Insert image
+image_path = "pics/רקע.jpg"
+st.image(image_path, use_column_width=True)
+
 # Section 3
 st.markdown('<h2 style="text-align:center;" dir="rtl">מטרות</h2>', unsafe_allow_html=True)
 
@@ -92,6 +96,8 @@ objectives_text = """
 
 st.markdown(f'<p style="text-align:center;" dir="rtl">{objectives_text}</p>', unsafe_allow_html=True)
 
+
+
 # Section 4
 st.markdown('<h2 style="text-align:center;" dir="rtl">NLP MODELS</h2>', unsafe_allow_html=True)
 
@@ -110,7 +116,26 @@ nlp_models_text = """
 Naive Bayes                                 BERT                                LSTM 
 """
 
-st.markdown(f'<p style="text-align:justify;" dir="rtl">{nlp_models_text}</p>', unsafe_allow_html=True)
+st.markdown(f'<p style="text-align:center;" dir="rtl">{nlp_models_text}</p>', unsafe_allow_html=True)
+
+# Insert image
+image_path = "pics/nlp-models.jpg"
+st.image(image_path, use_column_width=True)
+
+st.markdown('תוצאות סיווג המודלים', unsafe_allow_html=True)
+st.markdown('Naive Bayes', unsafe_allow_html=True)
+image_path = "pics/נאיב-בייס.jpg"
+st.image(image_path, use_column_width=True)
+
+st.markdown('BERT', unsafe_allow_html=True)
+
+image_path = "pics/ברט.jpg"
+st.image(image_path, use_column_width=True)
+
+st.markdown('LSTM', unsafe_allow_html=True)
+
+image_path = "pics/BI-LSTM.jpg"
+st.image(image_path, use_column_width=True)
 
 # Section 5
 st.markdown('<h2 style="text-align:center;" dir="rtl">Multilingual Bert</h2>', unsafe_allow_html=True)
