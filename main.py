@@ -121,16 +121,16 @@ st.image(image_path, use_column_width=True)
 
 st.markdown('<h3 style="text-align:center;" dir="rtl">:תוצאות סיווג המודלים</h3>', unsafe_allow_html=True)
 
-st.markdown('<h3 style="text-align:center;" dir="rtl">Naive Bayes</h3>', unsafe_allow_html=True)
+st.markdown('<h4 style="text-align:center;" dir="rtl">Naive Bayes</h4>', unsafe_allow_html=True)
 image_path = "pics/נאיב-בייס.jpg"
 st.image(image_path, use_column_width=True)
 
-st.markdown('<h3 style="text-align:center;" dir="rtl">Naive Bayes</h3>BERT</h3>', unsafe_allow_html=True)
+st.markdown('<h4 style="text-align:center;" dir="rtl">BERT</h4>', unsafe_allow_html=True)
 
 image_path = "pics/ברט.jpg"
 st.image(image_path, use_column_width=True)
 
-st.markdown('<h3 style="text-align:center;" dir="rtl">Naive Bayes</h3>LSTM</h3>', unsafe_allow_html=True)
+st.markdown('<h4 style="text-align:center;" dir="rtl">LSTM</h4>', unsafe_allow_html=True)
 
 image_path = "pics/BI-LSTM.jpg"
 st.image(image_path, use_column_width=True)
