@@ -153,8 +153,20 @@ multilingual_bert_text = """
 
 st.markdown(f'<p style="text-align:center;" dir="rtl">{multilingual_bert_text}</p>', unsafe_allow_html=True)
 
+image_path = "pics/Multilingual Bert.jpg"
+st.image(image_path, use_column_width=True)
+
+#TODO: Add button for model on Kaggle
+ # if st.button("לחץ לצפייה במודל", key="kaggle_model"):
+
 # Section 6
 st.markdown('<h2 style="text-align:center;" dir="rtl">דוגמא מתוך סט הנתונים בעברית וערבית בנפרד</h2>', unsafe_allow_html=True)
+
+image_path = "pics/2000_647df7f6d82dd.jpg"
+st.image(image_path, use_column_width=True)
+
+image_path = "pics/800_647df7e6540eb_filter_647df864725cc.jpg"
+st.image(image_path, use_column_width=True)
 
 example_data_text = """
 סט הנתונים
