@@ -300,5 +300,5 @@ st.image(image_path, use_column_width=True)
 
 # st.markdown(f'<p style="text-align:center;" dir="rtl">{hebrew_arabic_performance_text}</p>', unsafe_allow_html=True)
 
-st.markdown('<h2 style="text-align:center;" dir="rtl">מחברת Kaggle</h2>', unsafe_allow_html=True)
+# st.markdown('<h2 style="text-align:center;" dir="rtl">מחברת Kaggle</h2>', unsafe_allow_html=True)
 
