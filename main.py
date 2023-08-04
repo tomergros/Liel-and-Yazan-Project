@@ -1,4 +1,5 @@
 import streamlit as st
+import webbrowser
 
 # Add custom CSS to make the content right-to-left and set the overall style
 st.markdown(
@@ -35,6 +36,31 @@ st.markdown(
         pre code{
             text-align: center;
             font-size: 20px; /* Change this value to adjust the code block text size */
+        }
+                div.stButton > button:hover {
+    	background:linear-gradient(to bottom, #ce1126 5%, #ff5a5a 100%);
+    	background-color:#ce1126;
+        }
+    
+        div.stButton > button:active {
+    	position:relative;
+    	top:3px;
+        }
+
+        .title {
+            text-align: center;
+        }
+        .upload-title {
+            font-size: 20px;
+        }
+        .kaggle_model {
+            display: flex;
+            font-size: 24px;
+            justify-content: center;
+        }
+        .stButton button {
+            font-size: 24px;
+            width: 250px;
         }
 
     </style>
@@ -156,9 +182,12 @@ st.markdown(f'<p style="text-align:center;" dir="rtl">{multilingual_bert_text}</
 image_path = "pics/Multilingual Bert.jpg"
 st.image(image_path, use_column_width=True)
 
-#TODO: Add button for model on Kaggle
- # if st.button("לחץ לצפייה במודל", key="kaggle_model"):
+link_url = "https://www.kaggle.com/code/liely1/multilingual-bert-hebrew-arabic"  # Replace this with the URL you want to open
 
+#TODO: Add button for model on Kaggle
+ if st.button("לחץ לצפייה במודל", key="kaggle_model"):
+    webbrowser.open_new_tab(link_url)
+     
 # Section 6
 st.markdown('<h2 style="text-align:center;" dir="rtl">דוגמא מתוך סט הנתונים בעברית וערבית בנפרד</h2>', unsafe_allow_html=True)
 
