@@ -43,13 +43,17 @@ st.markdown(
 )
 
 
-# Section 1
-st.markdown('<div class="section1">', unsafe_allow_html=True)
+# Insert image
+image_path = "pics/cover.jpg"
+st.image(image_path, use_column_width=True)
 
-st.markdown('<h1 style="text-align:center;" dir="rtl">זיהוי בריונות ברשתות החברתיות באמצעות בינה מלאכותית</h1>', unsafe_allow_html=True)
+# # Section 1
+# st.markdown('<div class="section1">', unsafe_allow_html=True)
 
-st.markdown('<h3 style="text-align:center;" dir="rtl">יזן מרעי וליאל יעקב</h3>', unsafe_allow_html=True)
-st.markdown('<div class="section1">', unsafe_allow_html=True)
+# st.markdown('<h1 style="text-align:center;" dir="rtl">זיהוי בריונות ברשתות החברתיות באמצעות בינה מלאכותית</h1>', unsafe_allow_html=True)
+
+# st.markdown('<h3 style="text-align:center;" dir="rtl">יזן מרעי וליאל יעקב</h3>', unsafe_allow_html=True)
+# st.markdown('<div class="section1">', unsafe_allow_html=True)
 
 # Section 2
 st.markdown('<h2 style="text-align:center;" dir="rtl">רקע</h2>', unsafe_allow_html=True)
