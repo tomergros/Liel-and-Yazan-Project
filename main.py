@@ -82,7 +82,8 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
-
+def open_link_in_new_tab(url):
+    js_code = f"window.open('{url}', '_blank')"
 
 # Insert image
 image_path = "pics/cover.jpg"
@@ -201,7 +202,7 @@ link_url = "https://www.kaggle.com/code/liely1/multilingual-bert-hebrew-arabic" 
 
 #TODO: Add button for model on Kaggle
 if st.button("לחץ כאן לפתיחת המודל", key="validate-button"):
-    webbrowser.open_new_tab(link_url)
+    open_link_in_new_tab(link_url)
      
 # Section 6
 st.markdown('<h2 style="text-align:center;" dir="rtl">דוגמא מתוך סט הנתונים בעברית וערבית בנפרד</h2>', unsafe_allow_html=True)
