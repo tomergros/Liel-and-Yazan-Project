@@ -37,7 +37,29 @@ st.markdown(
             text-align: center;
             font-size: 20px; /* Change this value to adjust the code block text size */
         }
-                div.stButton > button:hover {
+
+    </style>
+    """,
+    unsafe_allow_html=True,
+)
+
+st.markdown(
+        """
+        <style>
+        div.stButton > button:first-child {
+        background-color: #ce1126;
+        color: white;
+        height: 3em;
+        width: 12em;
+        border-radius:10px;
+        border:3px solid #000000;
+        font-size:20px;
+        font-weight: bold;
+        margin: auto;
+        display: block;
+        }
+    
+        div.stButton > button:hover {
     	background:linear-gradient(to bottom, #ce1126 5%, #ff5a5a 100%);
     	background-color:#ce1126;
         }
@@ -53,7 +75,7 @@ st.markdown(
         .upload-title {
             font-size: 20px;
         }
-        .kaggle_model {
+        .validate-button {
             display: flex;
             font-size: 24px;
             justify-content: center;
@@ -62,11 +84,11 @@ st.markdown(
             font-size: 24px;
             width: 250px;
         }
+        </style>
+        """,
+        unsafe_allow_html=True,
+    )
 
-    </style>
-    """,
-    unsafe_allow_html=True,
-)
 
 
 # Insert image
