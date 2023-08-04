@@ -119,7 +119,7 @@ st.markdown(f'<p style="text-align:center;" dir="rtl">{nlp_models_text}</p>', un
 image_path = "pics/nlp-models.jpg"
 st.image(image_path, use_column_width=True)
 
-st.markdown('<h3 style="text-align:center;" dir="rtl">:תוצאות סיווג המודלים</h3>', unsafe_allow_html=True)
+st.markdown('<h3 style="text-align:center;" dir="rtl">תוצאות סיווג המודלים:</h3>', unsafe_allow_html=True)
 
 st.markdown('<h4 style="text-align:center;" dir="rtl">Naive Bayes</h4>', unsafe_allow_html=True)
 image_path = "pics/נאיב-בייס.jpg"
