@@ -119,17 +119,18 @@ st.markdown(f'<p style="text-align:center;" dir="rtl">{nlp_models_text}</p>', un
 image_path = "pics/nlp-models.jpg"
 st.image(image_path, use_column_width=True)
 
-st.markdown('<h2 style="text-align:center;" dir="rtl">:תוצאות סיווג המודלים</h2>', unsafe_allow_html=True)
-st.markdown('Naive Bayes', unsafe_allow_html=True)
+st.markdown('<h3 style="text-align:center;" dir="rtl">:תוצאות סיווג המודלים</h3>', unsafe_allow_html=True)
+
+st.markdown('<h3 style="text-align:center;" dir="rtl">Naive Bayes</h3>', unsafe_allow_html=True)
 image_path = "pics/נאיב-בייס.jpg"
 st.image(image_path, use_column_width=True)
 
-st.markdown('BERT', unsafe_allow_html=True)
+st.markdown('<h3 style="text-align:center;" dir="rtl">Naive Bayes</h3>BERT</h3>', unsafe_allow_html=True)
 
 image_path = "pics/ברט.jpg"
 st.image(image_path, use_column_width=True)
 
-st.markdown('LSTM', unsafe_allow_html=True)
+st.markdown('<h3 style="text-align:center;" dir="rtl">Naive Bayes</h3>LSTM</h3>', unsafe_allow_html=True)
 
 image_path = "pics/BI-LSTM.jpg"
 st.image(image_path, use_column_width=True)
