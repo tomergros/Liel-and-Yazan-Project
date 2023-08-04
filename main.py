@@ -185,7 +185,7 @@ st.image(image_path, use_column_width=True)
 link_url = "https://www.kaggle.com/code/liely1/multilingual-bert-hebrew-arabic"  # Replace this with the URL you want to open
 
 #TODO: Add button for model on Kaggle
- if st.button("Model in Kaggle", key="kaggle_model"):
+ if st.button("לחץ-לפתיחת-המודל", key="kaggle_model"):
     webbrowser.open_new_tab(link_url)
      
 # Section 6
