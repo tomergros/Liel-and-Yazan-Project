@@ -1,9 +1,14 @@
 [theme]
 base="light"
 primaryColor="#d33682"
-backgroundColor="#10b4dc"
+backgroundColor="#1797b5"
 secondaryBackgroundColor="#586e75"
 textColor="#f7f2e1"
+
+# primaryColor="#d33682"
+# backgroundColor="#10b4dc"
+# secondaryBackgroundColor="#586e75"
+# textColor="#f7f2e1"
 
 
 
