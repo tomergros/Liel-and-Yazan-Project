@@ -43,30 +43,66 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
+import streamlit as st
+
 st.markdown(
-        """
-        <style>
+    """
+    <style>
+        body {
+            direction: rtl;
+            font-family: Arial, sans-serif;
+        }
+        .section1 {
+            background-color: #e4eaae; 
+            padding: 20px;
+        }
+        .section2 {
+            background-color: #eaeaea; /* Lighter gray */
+            padding: 20px;
+        }
+        .section3 {
+            background-color: #f0f0f0; /* Even lighter gray */
+            padding: 20px;
+        }
+        h1, h2, h3, h4, h5, h6 {
+            text-align: center;
+            font-weight: bold;
+        }
+        p {
+            text-align: center;
+            font-size: 24px;
+        }
+        pre {
+            text-align: center;
+            padding: 40px;
+        }
+        pre code {
+            text-align: center;
+            font-size: 20px; /* Change this value to adjust the code block text size */
+        }
+
+        /* New styles for buttons and other elements */
         div.stButton > button:first-child {
-        background-color: #ce1126;
-        color: white;
-        height: 3em;
-        width: 12em;
-        border-radius:10px;
-        border:3px solid #000000;
-        font-size:20px;
-        font-weight: bold;
-        margin: auto;
-        display: block;
+            background-color: #ce1126;
+            color: white;
+            height: 3em;
+            width: 12em;
+            border-radius: 10px;
+            border: 3px solid #000000;
+            font-size: 20px;
+            font-weight: bold;
+            margin: auto;
+            display: block;
         }
     
         div.stButton > button:hover {
-    	background:linear-gradient(to bottom, #ce1126 5%, #ff5a5a 100%);
-    	background-color:#ce1126;
+            background: linear-gradient(to bottom, #ce1126 5%, #ff5a5a 100%);
+            background-color: #ce1126;
         }
     
         div.stButton > button:active {
-    	position:relative;
-    	top:3px;
+            position: relative;
+            top: 3px;
         }
 
         .title {
@@ -84,10 +120,10 @@ st.markdown(
             font-size: 24px;
             width: 250px;
         }
-        </style>
-        """,
-        unsafe_allow_html=True,
-    )
+    </style>
+    """,
+    unsafe_allow_html=True,
+)
 
 
 
