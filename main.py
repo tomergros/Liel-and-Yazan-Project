@@ -111,9 +111,6 @@ nlp_models_text = """
 סט הנתונים מכיל 7,945 תגובות לא פוגעניות ו-16,250 תגובות פוגעניות מקטגוריות שונות בשפה האנגלית.
 
 נוכחנו לגלות שמודל BERT מספק את התוצאות הטובות ביותר.
-
-תוצאות סיווג המודלים
-Naive Bayes                                 BERT                                LSTM 
 """
 
 st.markdown(f'<p style="text-align:center;" dir="rtl">{nlp_models_text}</p>', unsafe_allow_html=True)
@@ -122,7 +119,7 @@ st.markdown(f'<p style="text-align:center;" dir="rtl">{nlp_models_text}</p>', un
 image_path = "pics/nlp-models.jpg"
 st.image(image_path, use_column_width=True)
 
-st.markdown('תוצאות סיווג המודלים', unsafe_allow_html=True)
+st.markdown('<h2 style="text-align:center;" dir="rtl">:תוצאות סיווג המודלים</h2>', unsafe_allow_html=True)
 st.markdown('Naive Bayes', unsafe_allow_html=True)
 image_path = "pics/נאיב-בייס.jpg"
 st.image(image_path, use_column_width=True)
