@@ -1,9 +1,18 @@
 [theme]
+base="light"
 primaryColor="#d33682"
-backgroundColor="#002b36"
+backgroundColor="#10b4dc"
 secondaryBackgroundColor="#586e75"
-textColor="#fafafa"
-font="sans serif"
+textColor="#f7f2e1"
+
+
+
+# [theme]
+# primaryColor="#d33682"
+# backgroundColor="#002b36"
+# secondaryBackgroundColor="#586e75"
+# textColor="#fafafa"
+# font="sans serif"
 
 
 
