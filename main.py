@@ -202,9 +202,9 @@ link_url = "https://www.kaggle.com/code/liely1/multilingual-bert-hebrew-arabic" 
 
 #TODO: Add button for model on Kaggle
 if st.button("לחץ כאן לפתיחת המודל", key="validate-button"):
-    # open_link_in_new_tab(link_url)
-    # link = '[GitHub](http://github.com)'
-    st.markdown(link_url, unsafe_allow_html=True)
+    iframe_url = "https://www.kaggle.com/embed/liely1/multilingual-bert-hebrew-arabic"
+    iframe_code = f'<iframe src="{iframe_url}" height="2000" style="margin: 0 auto; width: 100%; max-width: 2000px;" frameborder="0" scrolling="auto" title="multilingual-bert-hebrew-arabic"></iframe>'
+    st.write(iframe_code, unsafe_allow_html=True)   
      
 # Section 6
 st.markdown('<h2 style="text-align:center;" dir="rtl">דוגמא מתוך סט הנתונים בעברית וערבית בנפרד</h2>', unsafe_allow_html=True)
@@ -301,6 +301,4 @@ st.image(image_path, use_column_width=True)
 # st.markdown(f'<p style="text-align:center;" dir="rtl">{hebrew_arabic_performance_text}</p>', unsafe_allow_html=True)
 
 st.markdown('<h2 style="text-align:center;" dir="rtl">מחברת Kaggle</h2>', unsafe_allow_html=True)
-iframe_url = "https://www.kaggle.com/embed/liely1/multilingual-bert-hebrew-arabic"
-iframe_code = f'<iframe src="{iframe_url}" height="2000" style="margin: 0 auto; width: 100%; max-width: 2000px;" frameborder="0" scrolling="auto" title="multilingual-bert-hebrew-arabic"></iframe>'
-st.write(iframe_code, unsafe_allow_html=True)   
+
