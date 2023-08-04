@@ -21,47 +21,6 @@ st.markdown(
             background-color: #f0f0f0; /* Even lighter gray */
             padding: 20px;
         }
-        h1, h2, h3, h4, h5, h6{
-            text-align: center;
-            font-weight: bold;
-        }
-        p{
-            text-align: center;
-             font-size: 24px;
-        }
-        pre{
-            text-align: center;
-            padding: 40px;
-        }
-        pre code{
-            text-align: center;
-            font-size: 20px; /* Change this value to adjust the code block text size */
-        }
-
-    </style>
-    """,
-    unsafe_allow_html=True,
-)
-
-st.markdown(
-    """
-    <style>
-        body {
-            direction: rtl;
-            font-family: Arial, sans-serif;
-        }
-        .section1 {
-            background-color: #e4eaae; 
-            padding: 20px;
-        }
-        .section2 {
-            background-color: #eaeaea; /* Lighter gray */
-            padding: 20px;
-        }
-        .section3 {
-            background-color: #f0f0f0; /* Even lighter gray */
-            padding: 20px;
-        }
         h1, h2, h3, h4, h5, h6 {
             text-align: center;
             font-weight: bold;
