@@ -99,7 +99,7 @@ st.markdown('<h6 style="text-align:center;" dir="rtl">מנחת הפרויקט: �
 # st.markdown('<div class="section1">', unsafe_allow_html=True)
 
 # Section 2
-st.markdown('<h2 style="text-align:center;>רקע</h2>', unsafe_allow_html=True)
+st.markdown('<h2 style="text-align:center;">רקע</h2>', unsafe_allow_html=True)
 
 background_text = """
 בשנים האחרונות פלטפורמת הרשתות החברתיות תפסה תאוצה וכיום היא תופסת מקום משמעותי בחיים של כמעט כל אחד מאיתנו. 
