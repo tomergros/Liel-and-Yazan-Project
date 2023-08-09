@@ -257,7 +257,7 @@ image_path = "pics/מדדים להערכות ביצועים.jpg"
 st.image(image_path, use_column_width=True)
 
 # Section 8
-st.markdown('<h2 style="text-align:center;" dir="rtl">הערכת ביצועים על סט הנתונים בעברית</h2>', unsafe_allow_html=True)
+st.markdown('<h2 style="text-align:center;" dir="rtl">הערכת ביצועים על סט הנתונים בעברית לפני עריכתו</h2>', unsafe_allow_html=True)
 
 image_path = "pics/הערכת ביצועים על סט הנתונים בעברית.jpg"
 st.image(image_path, use_column_width=True)
@@ -272,7 +272,7 @@ st.image(image_path, use_column_width=True)
 # st.markdown(f'<p style="text-align:center;" dir="rtl">{hebrew_performance_text}</p>', unsafe_allow_html=True)
 
 # Section 9
-st.markdown('<h2 style="text-align:center;" dir="rtl">הערכת ביצועים על סט הנתונים בערבית</h2>', unsafe_allow_html=True)
+st.markdown('<h2 style="text-align:center;" dir="rtl">הערכת ביצועים על סט הנתונים בערבית לפני עריכתו</h2>', unsafe_allow_html=True)
 
 image_path = "pics/הערכת ביצועים על סט הנתונים בערבית.jpg"
 st.image(image_path, use_column_width=True)
@@ -287,7 +287,7 @@ st.image(image_path, use_column_width=True)
 # st.markdown(f'<p style="text-align:center;" dir="rtl">{arabic_performance_text}</p>', unsafe_allow_html=True)
 
 # Section 10
-st.markdown('<h2 style="text-align:center;" dir="rtl">הערכת ביצועים על סט הנתונים בעברית + ערבית</h2>', unsafe_allow_html=True)
+st.markdown('<h2 style="text-align:center;" dir="rtl">הערכת ביצועים על סט הנתונים בעברית + ערבית לפני עריכתו</h2>', unsafe_allow_html=True)
 
 image_path = "pics/הערכת ביצועים על סט הנתונים בעברית וערבית.jpg"
 st.image(image_path, use_column_width=True)
@@ -300,6 +300,59 @@ st.image(image_path, use_column_width=True)
 # """
 
 # st.markdown(f'<p style="text-align:center;" dir="rtl">{hebrew_arabic_performance_text}</p>', unsafe_allow_html=True)
+
+# Section 11
+st.markdown('<h2 style="text-align:center;" dir="rtl">לאחר הניסוי הראשון</h2>', unsafe_allow_html=True)
+
+first_experiment_text = """
+הבנו עד כמה בניית סט נתונים טוב דורש המון עבודה.
+בדקנו בכל שלב איך הושפעו התוצאות מהשינויים בכריית הנתונים.
+כאשר ראינו שיש ירידה- בחנו אילו תגובות סווגו נכונה ואילו בצורה שגויה ע"י המודל. חיפשנו קשר בין תגובות אלו, בכדי לשפר את סט הנתונים שלנו והמשכנו לבצע שינויים בתהליך איסוף הנתונים. שינינו את מאזן הנתונים. ניתחנו והסקנו מסקנות לגבי ההמשך בכל שלב במהלך בדיקת סט הנתונים, על מנת לשפר אותו. 
+"""
+st.markdown(f'<p style="text-align:center;" dir="rtl">{first_experiment_text}</p>', unsafe_allow_html=True)
+
+image_path = "pics/מטריצה הסברים.png"
+st.image(image_path, use_column_width=True)
+
+st.markdown('<h5 style="text-align:center;" dir="rtl">תגובות פוגעניות שסווגו נכונה + תגובות שסווגו כפוגעניות בצורה שגויה</h5>', unsafe_allow_html=True)
+
+image_path = "pics/FN עברית.jpeg"
+st.image(image_path, use_column_width=True)
+
+image_path = "pics/fn ערבית עברית.png"
+st.image(image_path, use_column_width=True)
+
+image_path = "pics/FN ערבית.jpeg"
+st.image(image_path, use_column_width=True)
+
+image_path = "pics/TN עברית.jpeg"
+st.image(image_path, use_column_width=True)
+
+image_path = "pics/TN ערבית עברית.png"
+st.image(image_path, use_column_width=True)
+
+image_path = "pics/TN ערבית.jpeg"
+st.image(image_path, use_column_width=True)
+
+st.markdown('<h5 style="text-align:center;" dir="rtl">תגובות לא פוגעניות שסווגו נכונה + תגובות שסווגו כלא פוגעניות בצורה שגויה</h5>', unsafe_allow_html=True)
+
+image_path = "pics/TP עברית.jpeg"
+st.image(image_path, use_column_width=True)
+
+image_path = "pics/TP ערבית.jpeg"
+st.image(image_path, use_column_width=True)
+
+image_path = "pics/TP עברית ערבית.png"
+st.image(image_path, use_column_width=True)
+
+image_path = "pics/FP עברית ערבית.png"
+st.image(image_path, use_column_width=True)
+
+image_path = "pics/FP עברית.jpeg"
+st.image(image_path, use_column_width=True)
+
+image_path = "pics/FP ערבית.jpeg"
+st.image(image_path, use_column_width=True)
 
 # st.markdown('<h2 style="text-align:center;" dir="rtl">מחברת Kaggle</h2>', unsafe_allow_html=True)
 
