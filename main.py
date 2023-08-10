@@ -97,7 +97,9 @@ st.markdown('<h6 style="text-align:center;" dir="rtl">מנחת הפרויקט: �
 
 # st.markdown('<h3 style="text-align:center;" dir="rtl">יזן מרעי וליאל יעקב</h3>', unsafe_allow_html=True)
 # st.markdown('<div class="section1">', unsafe_allow_html=True)
-
+st.markdown('<h2 style="text-align:center;" dir="rtl"> </h2>', unsafe_allow_html=True)
+st.markdown('<h2 style="text-align:center;" dir="rtl"> </h2>', unsafe_allow_html=True)
+st.markdown('<h2 style="text-align:center;" dir="rtl"> </h2>', unsafe_allow_html=True)
 # Section 2
 st.markdown('<h2 style="text-align:center;">רקע</h2>', unsafe_allow_html=True)
 
@@ -116,7 +118,9 @@ st.markdown(f'<p style="text-align:center;" dir="rtl">{background_text}</p>', un
 # Insert image
 image_path = "pics/רקע.jpg"
 st.image(image_path, use_column_width=True)
-
+st.markdown('<h2 style="text-align:center;" dir="rtl"> </h2>', unsafe_allow_html=True)
+st.markdown('<h2 style="text-align:center;" dir="rtl"> </h2>', unsafe_allow_html=True)
+st.markdown('<h2 style="text-align:center;" dir="rtl"> </h2>', unsafe_allow_html=True)
 # Section 3
 st.markdown('<h2 style="text-align:center;" dir="rtl">מטרות</h2>', unsafe_allow_html=True)
 
@@ -140,7 +144,9 @@ objectives_text = """
 st.markdown(f'<p style="text-align:center;" dir="rtl">{objectives_text}</p>', unsafe_allow_html=True)
 
 
-
+st.markdown('<h2 style="text-align:center;" dir="rtl"> </h2>', unsafe_allow_html=True)
+st.markdown('<h2 style="text-align:center;" dir="rtl"> </h2>', unsafe_allow_html=True)
+st.markdown('<h2 style="text-align:center;" dir="rtl"> </h2>', unsafe_allow_html=True)
 # Section 4
 st.markdown('<h2 style="text-align:center;" dir="rtl">NLP MODELS</h2>', unsafe_allow_html=True)
 
@@ -177,7 +183,9 @@ st.markdown('<h4 style="text-align:center;" dir="rtl">LSTM</h4>', unsafe_allow_h
 
 image_path = "pics/BI-LSTM.jpg"
 st.image(image_path, use_column_width=True)
-
+st.markdown('<h2 style="text-align:center;" dir="rtl"> </h2>', unsafe_allow_html=True)
+st.markdown('<h2 style="text-align:center;" dir="rtl"> </h2>', unsafe_allow_html=True)
+st.markdown('<h2 style="text-align:center;" dir="rtl"> </h2>', unsafe_allow_html=True)
 # Section 5
 st.markdown('<h2 style="text-align:center;" dir="rtl">Multilingual Bert</h2>', unsafe_allow_html=True)
 
@@ -206,7 +214,9 @@ if st.button("לחץ כאן לפתיחת המודל", key="validate-button"):
     iframe_url = "https://www.kaggle.com/embed/liely1/multilingual-bert-hebrew-arabic"
     iframe_code = f'<iframe src="{iframe_url}" height="2000" style="margin: 0 auto; width: 100%; max-width: 2000px;" frameborder="0" scrolling="auto" title="multilingual-bert-hebrew-arabic"></iframe>'
     st.write(iframe_code, unsafe_allow_html=True)   
-     
+st.markdown('<h2 style="text-align:center;" dir="rtl"> </h2>', unsafe_allow_html=True)
+st.markdown('<h2 style="text-align:center;" dir="rtl"> </h2>', unsafe_allow_html=True)
+st.markdown('<h2 style="text-align:center;" dir="rtl"> </h2>', unsafe_allow_html=True)     
 # Section 6
 st.markdown('<h2 style="text-align:center;" dir="rtl">דוגמא מתוך סט הנתונים בעברית וערבית בנפרד</h2>', unsafe_allow_html=True)
 
@@ -234,7 +244,9 @@ st.markdown(f'<p style="text-align:center;" dir="rtl">{example_data_text}</p>', 
 
 image_path = "pics/סט הנתונים.jpg"
 st.image(image_path, use_column_width=True)
-
+st.markdown('<h2 style="text-align:center;" dir="rtl"> </h2>', unsafe_allow_html=True)
+st.markdown('<h2 style="text-align:center;" dir="rtl"> </h2>', unsafe_allow_html=True)
+st.markdown('<h2 style="text-align:center;" dir="rtl"> </h2>', unsafe_allow_html=True)
 # Section 7
 st.markdown('<h2 style="text-align:center;" dir="rtl">מדדים להערכות ביצועים</h2>', unsafe_allow_html=True)
 
@@ -255,7 +267,9 @@ st.markdown(f'<p style="text-align:center;" dir="rtl">{performance_metrics_text}
 
 image_path = "pics/מדדים להערכות ביצועים.jpg"
 st.image(image_path, use_column_width=True)
-
+st.markdown('<h2 style="text-align:center;" dir="rtl"> </h2>', unsafe_allow_html=True)
+st.markdown('<h2 style="text-align:center;" dir="rtl"> </h2>', unsafe_allow_html=True)
+st.markdown('<h2 style="text-align:center;" dir="rtl"> </h2>', unsafe_allow_html=True)
 # Section 8
 st.markdown('<h2 style="text-align:center;" dir="rtl">הערכת ביצועים על סט הנתונים בעברית לפני עריכתו</h2>', unsafe_allow_html=True)
 
@@ -270,7 +284,9 @@ st.image(image_path, use_column_width=True)
 # """
 
 # st.markdown(f'<p style="text-align:center;" dir="rtl">{hebrew_performance_text}</p>', unsafe_allow_html=True)
-
+st.markdown('<h2 style="text-align:center;" dir="rtl"> </h2>', unsafe_allow_html=True)
+st.markdown('<h2 style="text-align:center;" dir="rtl"> </h2>', unsafe_allow_html=True)
+st.markdown('<h2 style="text-align:center;" dir="rtl"> </h2>', unsafe_allow_html=True)
 # Section 9
 st.markdown('<h2 style="text-align:center;" dir="rtl">הערכת ביצועים על סט הנתונים בערבית לפני עריכתו</h2>', unsafe_allow_html=True)
 
@@ -285,7 +301,9 @@ st.image(image_path, use_column_width=True)
 # """
 
 # st.markdown(f'<p style="text-align:center;" dir="rtl">{arabic_performance_text}</p>', unsafe_allow_html=True)
-
+st.markdown('<h2 style="text-align:center;" dir="rtl"> </h2>', unsafe_allow_html=True)
+st.markdown('<h2 style="text-align:center;" dir="rtl"> </h2>', unsafe_allow_html=True)
+st.markdown('<h2 style="text-align:center;" dir="rtl"> </h2>', unsafe_allow_html=True)
 # Section 10
 st.markdown('<h2 style="text-align:center;" dir="rtl">הערכת ביצועים על סט הנתונים בעברית + ערבית לפני עריכתו</h2>', unsafe_allow_html=True)
 
@@ -294,7 +312,9 @@ st.image(image_path, use_column_width=True)
 
 image_path = "pics/הערכת ביצועים על סט הנתונים בעברית וערבית2.jpg"
 st.image(image_path, use_column_width=True)
-
+st.markdown('<h2 style="text-align:center;" dir="rtl"> </h2>', unsafe_allow_html=True)
+st.markdown('<h2 style="text-align:center;" dir="rtl"> </h2>', unsafe_allow_html=True)
+st.markdown('<h2 style="text-align:center;" dir="rtl"> </h2>', unsafe_allow_html=True)
 # hebrew_arabic_performance_text = """
 # [הכנס כאן את תוצאות הביצועים על סט הנתונים המשולב של עברית וערבית]
 # """
@@ -353,25 +373,34 @@ st.image(image_path, use_column_width=True)
 
 image_path = "pics/FP ערבית.jpeg"
 st.image(image_path, use_column_width=True)
+st.markdown('<h2 style="text-align:center;" dir="rtl"> </h2>', unsafe_allow_html=True)
+st.markdown('<h2 style="text-align:center;" dir="rtl"> </h2>', unsafe_allow_html=True)
+st.markdown('<h2 style="text-align:center;" dir="rtl"> </h2>', unsafe_allow_html=True)
 
 # Section 12
 st.markdown('<h2 style="text-align:center;" dir="rtl">הערכת ביצועים על סט הנתונים בערבית + עברית לאחר עריכתו </h2>', unsafe_allow_html=True)
 
 image_path = "pics/תוצאות אחרונות עברית ערבית.png"
 st.image(image_path, use_column_width=True)
-
+st.markdown('<h2 style="text-align:center;" dir="rtl"> </h2>', unsafe_allow_html=True)
+st.markdown('<h2 style="text-align:center;" dir="rtl"> </h2>', unsafe_allow_html=True)
+st.markdown('<h2 style="text-align:center;" dir="rtl"> </h2>', unsafe_allow_html=True)
 # Section 13
 st.markdown('<h2 style="text-align:center;" dir="rtl">הערכת ביצועים על סט הנתונים בערבית לאחר עריכתו </h2>', unsafe_allow_html=True)
 
 image_path = "pics/תוצאות אחרונות ערבית.jpeg"
 st.image(image_path, use_column_width=True)
-
+st.markdown('<h2 style="text-align:center;" dir="rtl"> </h2>', unsafe_allow_html=True)
+st.markdown('<h2 style="text-align:center;" dir="rtl"> </h2>', unsafe_allow_html=True)
+st.markdown('<h2 style="text-align:center;" dir="rtl"> </h2>', unsafe_allow_html=True)
 # Section 14
 st.markdown('<h2 style="text-align:center;" dir="rtl">הערכת ביצועים על סט הנתונים בעברית לאחר עריכתו </h2>', unsafe_allow_html=True)
 
 image_path = "pics/תוצאות אחרונות עברית.png"
 st.image(image_path, use_column_width=True)
-
+st.markdown('<h2 style="text-align:center;" dir="rtl"> </h2>', unsafe_allow_html=True)
+st.markdown('<h2 style="text-align:center;" dir="rtl"> </h2>', unsafe_allow_html=True)
+st.markdown('<h2 style="text-align:center;" dir="rtl"> </h2>', unsafe_allow_html=True)
 # Section 15
 st.markdown('<h2 style="text-align:center;" dir="rtl">סיכום תוצאות </h2>', unsafe_allow_html=True)
 
@@ -384,6 +413,10 @@ st.markdown(f'<p style="text-align:center;" dir="rtl">{results_summery_text}</p>
 
 image_path = "pics/גרף השוואה.png"
 st.image(image_path, use_column_width=True)
+
+st.markdown('<h2 style="text-align:center;" dir="rtl"> </h2>', unsafe_allow_html=True)
+st.markdown('<h2 style="text-align:center;" dir="rtl"> </h2>', unsafe_allow_html=True)
+st.markdown('<h2 style="text-align:center;" dir="rtl"> </h2>', unsafe_allow_html=True)
 
 # Section 16
 st.markdown('<h2 style="text-align:center;" dir="rtl">מסקנות </h2>', unsafe_allow_html=True)
