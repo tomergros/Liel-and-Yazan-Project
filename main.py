@@ -354,5 +354,49 @@ st.image(image_path, use_column_width=True)
 image_path = "pics/FP ערבית.jpeg"
 st.image(image_path, use_column_width=True)
 
+# Section 12
+st.markdown('<h2 style="text-align:center;" dir="rtl">הערכת ביצועים על סט הנתונים בערבית + עברית לאחר עריכתו </h2>', unsafe_allow_html=True)
+
+image_path = "pics/תוצאות אחרונות עברית ערבית.png"
+st.image(image_path, use_column_width=True)
+
+# Section 13
+st.markdown('<h2 style="text-align:center;" dir="rtl">הערכת ביצועים על סט הנתונים בערבית לאחר עריכתו </h2>', unsafe_allow_html=True)
+
+image_path = "pics/תוצאות אחרונות ערבית.jpeg"
+st.image(image_path, use_column_width=True)
+
+# Section 14
+st.markdown('<h2 style="text-align:center;" dir="rtl">הערכת ביצועים על סט הנתונים בעברית לאחר עריכתו </h2>', unsafe_allow_html=True)
+
+image_path = "pics/תוצאות אחרונות עברית.png"
+st.image(image_path, use_column_width=True)
+
+# Section 15
+st.markdown('<h2 style="text-align:center;" dir="rtl">סיכום תוצאות </h2>', unsafe_allow_html=True)
+
+results_summery_text = """
+לאחר הפקת הלקחים החשובה בעקבותיה ערכנו את סט הנתונים שלנו, הצלחנו להגדיל אותו ובהתאם לכך, שיפרנו משמעותית את תוצאות המודל. 
+
+בגרף המוצג ניתן לראות את ההשוואה בין התוצאות הראשוניות לבין התוצאות המשופרות. 
+"""
+st.markdown(f'<p style="text-align:center;" dir="rtl">{results_summery_text}</p>', unsafe_allow_html=True)
+
+image_path = "pics/גרף השוואה.png"
+st.image(image_path, use_column_width=True)
+
+# Section 16
+st.markdown('<h2 style="text-align:center;" dir="rtl">מסקנות </h2>', unsafe_allow_html=True)
+
+conclustion_text = """
+תקוותנו היא שהמחקר שלנו יתרום לפיתוח עיבוד השפות עברית וערבית. אילו הייתה גישה לסט נתונים מהסוג שבנינו, היו יותר מחקרים בנושא וכתוצאה מכך, יכול היה להיות פיתוח נרחב יותר למנגנוני הגנה יעילים לבריונות מהסוג הזה. גישה לסט נתונים בשפות הללו, תעודד חוקרים לבצע מחקרים חדשים ומתקדמים בנושא ולעזור במניעת בריונות ברשתות.
+
+אנו מאמינים כי סטי הנתונים שלנו הם ניצוץ שממנו אפשר לפתח את עולם זיהוי הבריונות ברשתות החברתיות בארץ. המחקר שלנו מהווה גרגר חול בתוך מדבר שלם של אפשרויות מחקריות, בתקווה שאלו יובילו לשמירה על משתמשי הרשת ובפרט על בני הנוער מפני מקרי בריונות.
+
+"""
+st.markdown(f'<p style="text-align:center;" dir="rtl">{conclustion_text}</p>', unsafe_allow_html=True)
+
+image_path = "pics/תמונת סוף.png"
+st.image(image_path, use_column_width=True)
 # st.markdown('<h2 style="text-align:center;" dir="rtl">מחברת Kaggle</h2>', unsafe_allow_html=True)
 
